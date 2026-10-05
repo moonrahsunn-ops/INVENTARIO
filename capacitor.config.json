@@ -1,0 +1,17 @@
+{
+  "appId": "py.arasy.inventario",
+  "appName": "Inventario Arasy",
+  "webDir": "dist",
+  "android": {
+    "minSdkVersion": 23
+  },
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "launchForegroundColor": "#FFFFFF"
+    }
+  }
+}

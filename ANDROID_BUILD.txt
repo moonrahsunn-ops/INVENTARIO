@@ -1,0 +1,24 @@
+INVENTARIO ARASY - APK ANDROID
+
+Este proyecto es una app web local empaquetable con Capacitor.
+No requiere Base44, login ni servidor para el funcionamiento del inventario.
+
+REQUISITOS DE BUILD:
+- Node.js LTS
+- Capacitor 7.x
+- Android SDK actualizado
+- target/compile SDK moderno (34+; se recomienda 35)
+- Java 17
+
+COMANDOS:
+1) npm install
+2) npm run build
+3) npx cap add android
+4) npx cap sync android
+5) cd android && ./gradlew assembleRelease
+
+El APK de release queda en:
+android/app/build/outputs/apk/release/app-release-unsigned.apk
+
+NOTA: para distribución/instalación en algunos dispositivos, firmar el APK con una clave propia.
+Los datos de la app son locales. No se agrega autenticación ni backend.
