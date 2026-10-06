@@ -14,48 +14,6 @@ db.version(1).stores({
   works: '++id, name'
 });
 
-// Tipos de datos
-export class Product extends db.products {
-  constructor(data) {
-    super(data);
-  }
-}
-
-export class Accessory extends db.accessories {
-  constructor(data) {
-    super(data);
-  }
-}
-
-export class Category extends db.categories {
-  constructor(data) {
-    super(data);
-  }
-}
-
-export class Location extends db.locations {
-  constructor(data) {
-    super(data);
-  }
-}
-
-export class Sale extends db.sales {
-  constructor(data) {
-    super(data);
-  }
-}
-
-export class User extends db.users {
-  constructor(data) {
-    super(data);
-  }
-}
-
-export class Work extends db.works {
-  constructor(data) {
-    super(data);
-  }
-}
 
 // Funciones auxiliares para trabajar con la BD
 export const dbAPI = {
